@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+header{
+    text-align: center;
+    padding: 50px;
+}
+
+header h2{
+    font-size: 50px;
+}
+
+#members_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+#members_card .members{
+    width: 25%;
+    text-align: center;
+    background-color: bisque;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#members_card .members .img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 0 auto;
+}
+
+#members_card .members .img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#members_card .members .name{
+    margin: 20px 0;
+}
+
+#members_card .members .name h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#members_card .members .post h4{
+    font-size: 20px;
+}
+
+#members_card .members .link{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#members_card .members .link a{
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+#members_card .members .link a i{
+    margin-right: 5px;
+}
+
+#members_card .members .link a:first-child{
+    background-color: blue;
+}
+
+#members_card .members .link a:last-child{
+    background-color: black;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    header h2{
+        font-size: 20px;
+    }
+
+    #members_card {
+        padding: 0;
+    }
+
+    #members_card .members{
+        width: 80%;
+        margin: 20px auto;
+    }
+}
