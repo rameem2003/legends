@@ -34,17 +34,17 @@ const legends = [
     {
         name : "Pabel Pathan",
         position : "Member & Planner of ROL",
-        img : "https://rameem2003.github.io/oursite/img/gallery/jahid_rasel.jpg",
-        facbook : "https://www.facebook.com/jahedulislam.hridoy.564",
-        github : "https://github.com/Hridoy221",
+        img : "https://rameem2003.github.io/oursite/img/gallery/pathan.jpg",
+        facbook : "https://www.facebook.com/mdpabelpathanrIPa",
+        github : "https://github.com/pabelpathan",
     },
 
     {
         name : "Mahabul Alam",
         position : "Member",
-        img : "https://rameem2003.github.io/oursite/img/gallery/pathan.jpg",
-        facbook : "https://www.facebook.com/mdpabelpathanrIPa",
-        github : "https://github.com/pabelpathan",
+        img : "https://rameem2003.github.io/oursite/img/gallery/mahabul_alam.jpg",
+        facbook : "https://www.facebook.com/md.mahabulalom.5458",
+        github : "https://github.com/MDMahabulAlam",
     },
 
     {
