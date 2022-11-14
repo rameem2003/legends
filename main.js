@@ -85,7 +85,7 @@ const loadAllMembers = () => {
             </div>
 
             <div class="link">
-                <a href="${legend.facbook}" target="_blank"><i class="fa-brands fa-facebook"></i> facebook</a>
+                <a href="${legend.facbook}" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a>
                 <a href="${legend.github}" target="_blank"><i class="fa-brands fa-github"></i>Github</a>
             </div>
         
